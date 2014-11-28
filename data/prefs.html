@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Preferences</title>
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Arvo|Droid+Sans|">
+        <link href="./home.css" media="screen" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <br>
+        <center>Manage Preferences</center>
+        <button class="blue_btn" id="keygen">Generate Keys</button>
+        <div id="pub_key"></div>
+        <div id="priv_key"></div>
+        <div class="logins">
+            <form class="twitter">
+                <div class="header">Twitter</div>
+                <div class="twit_error"></div>
+                <div class="twit_success"></div>
+                <input id="twit_user" type="text" placeholder="Username">
+                <input id="twit_pass" type="password" placeholder="Password">
+                <button class="twit_login blue_btn">Login to Twitter</button>
+            </form>
+            <hr>
+            <form class="git">
+                <div class="header">GitHub</div>
+                <div class="git_error"></div>
+                <div class="git_success"></div>
+                <input id="git_user" type="text" placeholder="Username">
+                <input id="git_pass" type="password" placeholder="Password">
+                <button class="twit_login blue_btn">Login to Github</button>
+            </form>
+        </div>
+        <canvas id='canvas' class='hide'></canvas>
+    </body>
+</html>
